@@ -1,0 +1,150 @@
+
+.employee-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ee;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.employee-card .card-body {
+  padding: 22px;
+}
+
+.employee-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.employee-photo {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
+}
+
+.employee-info {
+  min-width: 0;
+}
+
+.employee-name {
+  color: #243447;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  overflow-wrap: anywhere;
+}
+
+.employee-department {
+  display: inline-block;
+  color: #52677d;
+  background: #f0f4f8;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 9px;
+  margin-bottom: 0;
+}
+
+.employee-salary-section {
+  border-top: 1px solid #edf0f3;
+  margin-top: 22px;
+  padding-top: 16px;
+}
+
+.salary-label {
+  color: #7b8794;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.employee-salary {
+  color: #243447;
+}
+
+.employee-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #edf0f3;
+}
+
+.update-icon-button,
+.delete-icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: none;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.update-icon-button {
+  color: #66816f;
+  border: 1px solid #cbdacf;
+}
+
+.update-icon-button:hover {
+  background: #edf4ef;
+  color: #4d6d57;
+  border-color: #b5cbbb;
+  transform: translateY(-2px);
+}
+
+.update-icon-button:focus,
+.update-icon-button:active {
+  background: #ffffff !important;
+  color: #66816f !important;
+  border-color: #cbdacf !important;
+  box-shadow: none !important;
+}
+
+.delete-icon-button {
+  color: #b85c5c;
+  border: 1px solid #e5caca;
+}
+
+.delete-icon-button:hover {
+  background: #fbefef;
+  color: #a94442;
+  border-color: #d9aaaa;
+  transform: translateY(-2px);
+}
+
+.delete-icon-button:focus,
+.delete-icon-button:active {
+  background: #ffffff !important;
+  color: #b85c5c !important;
+  border-color: #e5caca !important;
+  box-shadow: none !important;
+}
+
+.update-icon,
+.delete-icon {
+  display: block;
+}
+
+.update-icon {
+  width: 17px;
+  height: 17px;
+  transition: transform 0.4s ease;
+}
+
+.update-icon-button:hover .update-icon {
+  transform: rotate(180deg);
+}
+
+.delete-icon {
+  width: 14px;
+  height: 16px;
+}

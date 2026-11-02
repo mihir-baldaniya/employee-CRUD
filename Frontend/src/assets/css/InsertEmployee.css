@@ -1,0 +1,68 @@
+.insert-container {
+padding-top: 40px;
+padding-bottom: 40px;
+max-width: 760px;
+}
+
+.insert-card {
+background-color: #ffffff;
+border: 1px solid #e3e8ee;
+border-radius: 10px;
+padding: 30px;
+}
+
+.insert-card h2 {
+color: #243447;
+font-size: 26px;
+font-weight: 600;
+margin-bottom: 8px;
+}
+
+.insert-description {
+color: #7b8794;
+font-size: 14px;
+margin-bottom: 28px;
+}
+
+.insert-card .form-label {
+color: #34495e;
+font-size: 14px;
+font-weight: 500;
+}
+
+.insert-card .form-control,
+.insert-card .form-select {
+min-height: 44px;
+border: 1px solid #dce3ea;
+border-radius: 6px;
+color: #34495e;
+box-shadow: none;
+}
+
+.insert-card .form-control:focus,
+.insert-card .form-select:focus {
+border-color: #8da4ba;
+box-shadow: none;
+}
+
+.insert-button {
+min-height: 44px;
+background-color: #52677d;
+border-color: #52677d;
+color: #ffffff;
+}
+
+.insert-button:hover {
+background-color: #52677d;
+border-color: #52677d;
+}
+
+@media (max-width: 576px) {
+.insert-container {
+padding: 24px 16px;
+}
+
+.insert-card {
+padding: 22px;
+}
+}
