@@ -136,9 +136,9 @@ function Home() {
           </Modal.Header>
 
           <Modal.Body>
-            Are you sure you want to delete{" "}
+            Are you sure? you want to delete..!!{" "}
             <strong>{selectedEmployee?.EmployeeName}</strong>? This action
-            cannot be undone.
+            cannot be complete.
           </Modal.Body>
 
           <Modal.Footer>
