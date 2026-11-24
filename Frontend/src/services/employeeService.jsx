@@ -19,7 +19,7 @@ export const insertEmployeeWithImage = (formData) => {
   return axios.post(`${API_URL}/insertimage`, formData);
 };
 
-// // insert data
+// // insert data without image selection
 // export const insertEmployee = (employeeData) => {
 // return axios.post(`${API_URL}/post`, employeeData);
 // };
