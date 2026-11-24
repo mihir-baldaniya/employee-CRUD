@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Multer storage configuration
 const fileStorage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, "uploads/");
+        cb(null, "uploads/"); 
     },
     filename: function (req, file, cb) {
         cb(null, Date.now() + "_" + file.originalname);
