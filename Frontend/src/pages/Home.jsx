@@ -132,7 +132,7 @@ function Home() {
           centered
         >
           <Modal.Header closeButton>
-            <Modal.Title>Confirm Delete</Modal.Title>
+            <Modal.Title>Are you Confirm for Delete?</Modal.Title>
           </Modal.Header>
 
           <Modal.Body>
