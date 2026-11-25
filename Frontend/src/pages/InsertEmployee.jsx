@@ -81,13 +81,13 @@ function InsertEmployee() {
     <Container className="insert-container">
       <div className="insert-card">
         <h2>{title} Employee</h2>
-        <p className="insert-description">Enter the employee details below.</p>
+        <p className="insert-description">Enter the employee details.</p>
 
         {error && <Alert variant="danger">{error}</Alert>}
 
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3">
-            <Form.Label>Employee Name</Form.Label>
+            <Form.Label>Name</Form.Label>
             <Form.Control
               name="EmployeeName"
               placeholder="Enter employee name"
@@ -98,7 +98,7 @@ function InsertEmployee() {
           </Form.Group>
 
           <Form.Group className="mb-3">
-            <Form.Label>Employee Salary</Form.Label>
+            <Form.Label>Salary</Form.Label>
             <Form.Control
               type="number"
               name="EmployeeSalary"
