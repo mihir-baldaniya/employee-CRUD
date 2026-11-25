@@ -150,7 +150,7 @@ function Home() {
             </Button>
 
             <Button variant="danger" onClick={handleDelete}>
-              Yes, Delete
+              Yes, Delete the Data.
             </Button>
           </Modal.Footer>
         </Modal>
