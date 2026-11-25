@@ -10,7 +10,7 @@ function Header() {
         {" "}
         <Container>
           <Navbar.Brand as={Link} to="/" className="header-brand">
-            Employee Management
+            Employee Management System
           </Navbar.Brand>
 
           <div className="header-right">
