@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// all api in this page
 const API_URL = "http://localhost:3000";
 
 // Search employees by department
